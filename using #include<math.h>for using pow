@@ -1,0 +1,13 @@
+// wap to find the uses of pow to calculte b^c.
+#include<stdio.h>
+#include<math.h>
+int main()
+{int b,c;
+ printf("enter b: ");
+ scanf("%d",&b);
+ printf("enter c :");
+ scanf("%d",&c);
+int power =pow(b,c);
+printf("%d",power);
+return 0;
+}
