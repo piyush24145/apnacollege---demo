@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int marks;
+    printf("enter the marks of maths :");
+    scanf("%d",&marks);
+    if(marks>=90)
+    {
+        printf("A \n");
+    }
+    else if(marks>=80 && marks<90)
+    {
+        printf("B \n");
+    }
+    else if(marks>=70 && marks <80)
+    {
+        printf("c \n");
+    }
+    else
+    {
+        printf("D \n");
+    }
+    
+    
+    printf("thankyou");
+    return 0;
+}
